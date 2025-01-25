@@ -62,6 +62,10 @@ public class CourseController {
         return "UP";
     }
 
+    @GetMapping("/issue")
+    public String issueCheck() {
+        return "UP";
+    }
 
     @GetMapping("/welcome")
     public String greetings() {
