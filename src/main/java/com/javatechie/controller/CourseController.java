@@ -66,6 +66,11 @@ public class CourseController {
     public String issueCheck() {
         return "UP";
     }
+    
+    @GetMapping("/option")
+    public String optionCheck() {
+        return "UP";
+    }
 
     @GetMapping("/welcome")
     public String greetings() {
